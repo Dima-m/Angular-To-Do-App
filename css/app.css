@@ -1,0 +1,153 @@
+body {
+	background-color: #ededed;
+	width: 90%;
+}
+
+.main {
+	margin-top: 85px;
+}
+
+.navbar {
+	background-color: #337ab7;
+	width: 100%;
+}
+
+.navbar-inverse .navbar-brand {
+	position: absolute;
+    width: 100%;
+    left: 130px;
+    text-align: left;
+    margin: auto;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.remain {
+	margin: 65px 0 0 190px;
+	color: #337ab7;
+	font-size: 100px;
+	font-weight: bold;
+}
+
+.one-remain {
+	margin: 45px 0 0 190px;
+	color: #337ab7;
+	font-size: 100px;
+	font-weight: bold;
+}
+
+.remain-text {
+	margin-left: 170px;
+	color: grey;
+	font-size: 15px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.one-remain-text {
+	margin-left: 180px;
+	color: grey;
+	font-size: 15px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.todolist ul { 
+	list-style-type: none; 
+	border: 1px solid #ccc;
+	padding: 0;
+	margin: 30px 20px;
+	border-radius: 4px;
+	padding: 0 20px;
+
+} 
+.todolist li {
+	border-bottom: 1px solid #eee;
+	padding: 20px 0;
+	
+}
+
+.list-group ul {
+	border-radius: 15px;
+}
+
+.todo-form {
+	margin-top: 20px;
+}
+
+.todo-date {
+	margin-right: 25px;
+	overflow: hidden; 
+	white-space: nowrap;
+}
+
+.todo-text {
+	overflow: hidden; 
+    white-space: nowrap;
+}
+
+.no-tasks {
+	margin-left: 10px;
+}
+
+.alert {
+	margin-top: 20px;
+}
+.todolist li:last-child {
+	border-bottom: 0;
+}
+input[type="checkbox"] {
+	margin: 4px 10px 5px 10px;
+}
+
+.form-inline .form-control {
+	width: 35%;
+	display: inline-block;
+	min-width: 300px;
+}
+:checked + span {
+  text-decoration: line-through;
+  color: #ccc;
+}
+.btn.btn-primary {
+	vertical-align: top;
+}
+
+.instructions {
+	clear: both;
+	text-align: center;
+}
+
+.btn-default{
+	background-color: #337ab7;
+	color: #fff;
+}
+
+.btn-default:hover {
+	background-color: #285f8f;
+	color: #fff;
+}
+
+.btn-default:focus {
+	background-color: #285f8f;
+	color: #fff;
+}
+
+.delete {
+	cursor: pointer;
+	color: #ccc;
+	overflow: hidden; 
+    white-space: nowrap;
+    margin-right: 10px;
+    margin-top: 2px;
+}
+.delete:hover {
+	color: black;
+}
+
+ @media only screen and (max-width : 615px) {
+	.todo-text {
+	
+    margin-left: 15px;
+	}
+}
